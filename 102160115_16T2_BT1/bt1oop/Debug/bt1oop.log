@@ -1,0 +1,29 @@
+﻿Build started 10/17/2018 2:08:03 PM.
+     1>Project "C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\bt1oop\bt1oop.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\bt1oop.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Date.cpp ham_main.cpp List.cpp NhanVien.cpp
+         NhanVien.cpp
+         List.cpp
+     1>c:\users\duy\desktop\102160115_16t2_bt01\102160115_16t2_bt1\bt1oop\list.cpp(393): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         ham_main.cpp
+         Date.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bt1oop.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.lib" /MACHINE:X86 Debug\Date.obj
+         Debug\ham_main.obj
+         Debug\List.obj
+         Debug\NhanVien.obj
+         LINK : C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.exe not found or not built by the last incremental link; performing full link
+         bt1oop.vcxproj -> C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\Debug\bt1oop.exe;#1" /manifest Debug\bt1oop.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\bt1oop.unsuccessfulbuild".
+         Touching "Debug\bt1oop.lastbuildstate".
+     1>Done Building Project "C:\Users\DUY\Desktop\102160115_16T2_bt01\102160115_16T2_BT1\bt1oop\bt1oop.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07
